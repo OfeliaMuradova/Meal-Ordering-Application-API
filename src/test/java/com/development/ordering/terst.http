@@ -1,0 +1,21 @@
+GET http://localhost:8080/admin/users/list
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsInNjaG1vcHBlcyI6IkFETUlOIiwiaWF0IjoxNTQ4MDY0NDY3LCJleHAiOjE1NDgxNTA4Njd9.7Nh5RAWLT_0RhqW3Ne_6W29lQrAa44ZfReRx2VpBZ_I
+
+###
+
+GET http://localhost:8080/admin/companies/list
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsInNjaG1vcHBlcyI6IkFETUlOIiwiaWF0IjoxNTQ4MDY0NDY3LCJleHAiOjE1NDgxNTA4Njd9.7Nh5RAWLT_0RhqW3Ne_6W29lQrAa44ZfReRx2VpBZ_I
+
+###
+
+POST http://localhost:8080/admin/companies/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsInNjaG1vcHBlcyI6IkFETUlOIiwiaWF0IjoxNTQ4MDY0NDY3LCJleHAiOjE1NDgxNTA4Njd9.7Nh5RAWLT_0RhqW3Ne_6W29lQrAa44ZfReRx2VpBZ_I
+
+{
+    "name": "jemala"
+}
+
+###
